@@ -1,0 +1,12 @@
+.pers {
+	display: flex;
+	align-items: center;
+	column-gap: 8px;
+}
+
+.pers__text {
+	font-size: 15px;
+	font-weight: 500;
+	color: white;
+	line-height: 1.6em;
+}

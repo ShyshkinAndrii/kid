@@ -1,0 +1,36 @@
+.card {
+	max-width: 384px;
+
+}
+
+.card__title {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	column-gap: 24px;
+}
+
+.title__text {
+	color: #1D2130;
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.title__text:hover {
+	text-decoration: underline;
+}
+
+.card__info {
+	font-size: 14px;
+	font-weight: 400;
+	color: #525560;
+	line-height: 160%;
+	margin-left: 52px;
+}
+
+.title__image img:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}

@@ -1,0 +1,39 @@
+.card {
+	display: flex;
+	justify-content: start;
+	column-gap: 24px;
+	align-items: center;
+}
+
+.card__text {
+	display: flex;
+	flex-direction: column;
+	row-gap: 9px;
+}
+
+.card__image img {
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.card__title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1D2130;
+}
+
+.card__date {
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: 700;
+	color: #61636c;
+}
+
+.card__info	{
+	color: #525560;
+	font-size: 16px;
+	line-height: 160%;
+	font-weight: 400;
+	max-width: 296px;
+}

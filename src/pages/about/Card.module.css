@@ -1,0 +1,50 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 296px;
+}
+
+.card__image {
+	object-fit: cover;
+	margin-bottom: 16px;
+	cursor: pointer;
+}
+
+.card__image:hover {
+	transform: scale(1.02);
+}
+
+.card__name {
+	color: #1D2130;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 160%;
+	text-align: center;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.card__name:hover {
+	text-decoration: underline;
+}
+
+.card__position {
+	color: #1D2130;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 160%;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.card__social {
+	display: flex;
+	justify-content: center;
+	column-gap: 20px;
+	cursor: pointer;
+}
+
+.card__social img:hover {
+	transform: scale(1.1);
+}

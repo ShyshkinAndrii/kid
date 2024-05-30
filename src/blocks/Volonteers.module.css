@@ -1,0 +1,58 @@
+.events__image {
+	background: url(./../images/home/kids.jpg) no-repeat;
+	margin: auto;
+	height: 384px;
+	max-width: 1280px;
+	object-fit: cover;
+	margin-bottom: 84px;
+}
+
+.image__title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 120%;
+	color: #FFFFFF;
+	padding-top: 93px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 32px;
+	max-width: 1000px;
+}
+
+.image__buttons {
+	display: flex;
+	justify-content: center;
+	column-gap: 32px	;
+}
+
+.btn__yellow button {
+	padding: 16px 32px;
+	border-radius: 4px;
+	border: none;
+	background-color: #F2C94C;
+	color: #000000;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.btn button {
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 16px 32px;
+
+	font-size: 16px;
+	color: #1D2130;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	transform: scale(1.05);
+}
+
+@media screen and (max-width:630px) {
+	.image__title {
+		padding-top: 48px;
+	}
+}

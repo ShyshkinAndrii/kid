@@ -1,0 +1,355 @@
+/* --------HERO------- */
+
+.hero {
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+	padding-top: 76px;
+}
+
+.hero__text	{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 1px;
+	padding-left: 96px;
+}
+
+.hero__sub {
+	color: #1D2130;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+	margin-bottom: 32px;
+
+	display: flex;
+	justify-content: start;
+	column-gap: 24px;
+}
+
+.hero__sub hr {
+	width: 72px;
+	height: 3px;
+	background-color: #1D2130;
+}
+
+.hero__title {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 120%;
+	color: #1D2130;
+}
+
+.info__title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1D2130;
+	margin-bottom: 2px;
+}
+.hero__info {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+.info__text {
+	line-height: 160%;
+}
+
+.hero__image {
+	object-fit:cover;
+	margin-top: 70px;
+	
+}
+
+.hero__image img {
+	border-radius: 20px;
+	width: 100%;
+}
+
+/* ------MISSION-------- */
+
+.mission {
+	width: 100%;
+	margin: -224px auto 1px;
+	max-width: 1500px;
+	background-color: #FCEDC6;
+}
+
+.mission__text {
+	padding-top: 320px;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 96px;
+	max-width: 1100px;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 96px;
+}
+
+.mission__sub {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #1D2130;
+	margin-bottom: 16px;
+}
+
+.mission__title {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1D2130;
+	margin-bottom: 8px;
+}
+
+.mission__info {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #1D2130;
+}
+
+.mission__support {
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+}
+
+.support__title {
+	color: #1D2130;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+
+	margin-bottom: 32px;
+}
+
+.support__image {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 68px;
+}
+
+.support__image img:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/* -------AWARDS-------- */
+
+.awards {
+	background-color: #fff;
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+.awards__title {
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 120%;
+	color: #1D2130;
+	margin-bottom: 48px;
+}
+
+.awards__image {
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.awards__image img:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/* ------JOURNEY-------- */
+
+.journey {
+	background-color: #fff;
+	color: #000000;
+	/* margin-bottom: 96px; */
+}
+
+.journey__container{
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+	background-color: #F2C94C;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 48px;
+	border-radius: 20px;
+	padding: 64px 36px 64px 96px;
+}
+
+.journey__text {
+	padding-top: 64px;
+}
+
+.journey__sub {
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+.journey__title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 16px;
+}
+
+.journey__info {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 160%;
+	margin-bottom: 32px;
+}
+
+.journey__numbers {
+	display: flex;
+	justify-content: start;
+	column-gap: 32px;
+}
+
+.number__title {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 160%;
+}
+
+.number__sub {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 160%;
+}
+
+.journey__image {
+	width: 100%;
+	object-fit: cover;
+}
+
+.journey__image img {
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+/* -----TEAM------ */
+.team {
+	background-color: #fff;
+}
+
+.team__container {
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+	padding-top: 96px;
+	padding-bottom: 87px;
+}
+
+.team__title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 16px;
+	color: #000000;
+	text-align: center;
+}
+
+.team__sub {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 160%;
+	margin: 0 auto 48px;;
+	text-align: center;
+	max-width: 520px;
+}
+
+.team__cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	row-gap: 48px;
+	column-gap: 32px;
+}
+
+/* ----VOLONTEERS----- */
+
+.volonteer {
+	height: 384px;
+	margin-top: 40px;
+	margin-bottom: 88px;
+}
+
+@media screen and (max-width:110px) {
+	.mission__text {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+	.team__cards {
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+@media screen and (max-width:992px) {
+	.hero__text {
+		flex-direction: column;
+	}
+
+	.hero__info {
+		width: 100%;
+	}
+
+	.mission__text {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	
+	.team__cards {
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 16px;
+	}
+
+	.mission__support {
+		padding-left: 86px;
+	}
+
+	.support__image {
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+	}
+
+	.journey__container {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.journey__image {
+		margin-top: 24px;
+		
+	}
+
+	.journey__image img {
+		margin: auto;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.team__cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width:700px) {
+	.journey__image img {
+		display: none;
+	}
+}
